@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Uses of ChatGPT</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      color: #003366;
+      margin: 0;
+      padding: 0;
+      font-size: 17px;
+      line-height: 1.7;
+    }
+
+    .main-nav, .section-nav {
+      position: sticky;
+      top: 0;
+      background-color: #0056b3;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    .section-nav {
+      background-color: #003f7f; /* Slightly darker to distinguish */
+      font-size: 0.95em;
+    }
+
+    .main-nav a, .section-nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .main-nav a:hover, .section-nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 51, 102, 0.2);
+    }
+
+    h1 {
+      color: #0056b3;
+      text-align: center;
+    }
+
+    h2 {
+      color: #004080;
+      margin-top: 40px;
+    }
+
+    h3 {
+      color: #003366;
+      margin-top: 20px;
+    }
+
+    p {
+      margin: 15px 0;
+    }
+
+    .flex-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .flex-section img {
+      width: 250px;
+      height: auto;
+      border-radius: 8px;
+      flex-shrink: 0;
+      transition: transform 0.3s ease;
+    }
+
+    .flex-section img:hover {
+      transform: scale(1.03);
+    }
+
+    .flex-section p {
+      margin: 0;
+      flex:1;
+    }
+    
+    .sub-section {
+      background-color: #e6f2ff;
+      padding: 15px;
+      border-left: 5px solid #0056b3;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .sources {
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+
+    .sources a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+
+    .sources a:hover {
+      text-decoration: underline;
+    }
+
+    details summary {
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      .flex-section {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .flex-section img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="main-nav">
+    <a href="index.html"> Home</a>
+    <a href="introductions.html"> Introduction</a>
+    <a href="applications.html"> Application</a>
+  </nav>
+
+  <nav class="section-nav">
+    <a href="#customer">Customer Service</a>
+    <a href="#coding">Coding Assistance</a>
+    <a href="#challenges">Challenges</a>
+  </nav>
+
+  <div class="container">
+    <h1>How ChatGPT is Used</h1>
+
+    <h2 id="customer">💬 Customer Service</h2>
+    <p>
+      One of the most common uses of ChatGPT is in customer service, where it helps businesses respond to customer inquiries promptly—even outside regular working hours. With 24/7 availability, AI-powered chatbots can instantly answer frequently asked questions, guide users through troubleshooting steps, and reduce wait times. This not only improves customer satisfaction but also frees up human agents to focus on more complex issues.
+    </p>
+
+    <div class="flex-section">
+      <img src="https://support.sproutsocial.com/hc/article_attachments/360047276672" alt="Customer Service GIF" />
+      <p>
+        Similarly, many companies are using AI sales bots to engage with potential customers in real time by answering product questions, offering personalized recommendations, and guiding them toward a purchase.
+      </p>
+    </div>
+
+    <details class="sub-section">
+      <summary>Challenges</summary>
+      <ul>
+        <li><strong>Accuracy of Responses:</strong> AI chatbots can struggle with context, nuance, or complex queries and may provide incorrect or unhelpful responses.</li>
+        <li><strong>Overreliance on AI:</strong> Some businesses may try to replace human agents completely, but this can lead to frustration for customers who prefer human interaction for more complicated issues.</li>
+      </ul>
+    </details>
+
+    <details class="sub-section">
+      <summary>Why it Matters</summary>
+      <p><strong>Customer Expectations:</strong> Customers expect fast, accurate, and empathetic service. Failing to deliver can harm your brand reputation and customer loyalty.</p>
+    </details>
+
+    <h2 id="coding">💻 Coding Assistance</h2>
+    <p>
+      ChatGPT can also serve as a coding assistant to help developers write, debug, and optimize code efficiently. GitHub Copilot, for example, is an AI-powered coding assistant developed by GitHub in collaboration with OpenAI. It's built on top of OpenAI's Codex and GPT-4 models and is integrated directly into code editors such as Visual Studio Code.
+    </p>
+
+    <div class="flex-section">
+      <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c7r95q9p57n5qnh4evk3.gif" alt="GitHub Copilot Explanation GIF" style="width: 100%; max-width: 800px;" />
+    </div>
+    <p>
+      Here, we can see GitHub Copilot explaining the code by analyzing it using AI and generating a plain-language summary of what the code does. It looks at the structure, functions, and logic to describe the purpose of the code and how it works, making it easier to understand—especially for beginners or when reviewing unfamiliar code.
+    </p>
+
+    <details class="sub-section">
+      <summary>Challenges</summary>
+      <ul>
+        <li><strong>Code Quality and Security:</strong> Copilot may generate code that lacks best practices or contains vulnerabilities.</li>
+        <li><strong>Lack of Context Awareness:</strong> It doesn’t understand your full project and may produce code that doesn’t integrate well.</li>
+      </ul>
+    </details>
+
+    <details class="sub-section">
+      <summary>Why it Matters</summary>
+      <p><strong>Efficiency vs. Accuracy:</strong> Copilot can significantly speed up development by handling repetitive tasks, but if developers blindly trust its suggestions, it can lead to inefficient, buggy, or insecure code that requires rework.</p>
+    </details>
+
+    <h2 id="challenges">⚠️ What Makes it Difficult to Use These Technologies Well</h2>
+    <p>
+      Using these technologies effectively is challenging due to the need for continuous training and updates to keep AI models relevant and accurate, particularly as new technologies and customer expectations evolve. Without regular updates, AI can quickly become outdated or ineffective. Additionally, the complexity of human interaction presents another hurdle, especially in customer service. AI still struggles to understand emotional tone and context, and it cannot replicate human empathy, which is often essential for addressing sensitive or complex issues.
+    </p>
+
+    <h2>Sources</h2>
+    <ul class="sources">
+      <li><a href="https://christianheilmann.com/2022/06/07/github-copilot-explaining-code-and-translating-it-from-one-language-to-another/" target="_blank">GitHub Copilot Explaining Code</a></li>
+      <li><a href="https://research.aimultiple.com/chatgpt-for-customer-service/" target="_blank">ChatGPT for Customer Service – AIMultiple</a></li>
+      <li><a href="https://www.techtarget.com/searchcustomerexperience/feature/How-to-use-ChatGPT-for-customer-service" target="_blank">How to Use ChatGPT for Customer Service – TechTarget</a></li>
+      <li><a href="https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/" target="_blank">GitHub Blog: Copilot's Impact</a></li>
+      <li><a href="https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot" target="_blank">GitHub Docs: What is GitHub Copilot</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/GitHub_Copilot" target="_blank">GitHub Copilot – Wikipedia</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/OpenAI" target="_blank">OpenAI – Wikipedia</a></li>
+    </ul>
+
+  </div>
+</body>
+</html>
